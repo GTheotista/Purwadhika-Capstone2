@@ -1,7 +1,7 @@
 # **Supermarket Customers Analysis**
 
 **Tool:** Python<br>
-**Visualization:** Tableau<br>
+**Visualization:** Python(Matplotlib/Seaborn) & Tableau<br> 
 **Dataset:** Supermarket Customers
 
 **Table of Contents:**
