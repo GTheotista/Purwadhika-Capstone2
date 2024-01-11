@@ -45,6 +45,7 @@ Dengan merumuskan pertanyaan-pertanyaan ini, analisis data dapat memberikan pand
 ## Import & Understanding Data
 
 Data yang diimport merupakan data yang ada pada respository: 
+
 https://github.com/GTheotista/Purwadhika-Capstone2/blob/main/Supermarket%20Customers.csv
 
 Data merupakan data supermarket customers yang berjumlah 2240 data yang diperkirakan data ini merupakan data di tahun 2013-2015. 
