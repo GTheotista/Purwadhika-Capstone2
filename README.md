@@ -269,5 +269,5 @@ Beberapa pertanyaan yang berkaitan untuk memahami komplain pelanggan:
 Berikut ini adalah link tableau project ini:  
 https://public.tableau.com/app/profile/giovanny.theotista/viz/Capstone_2_GiovannyT/SupermarketCust?publish=yes
 
-Berikut ini sekilas tampilan tableau project ini:  
+Berikut ini sekilas dari tampilan tableau project ini:  
 ![image](https://github.com/GTheotista/Purwadhika-Capstone2/assets/150938198/3c299e3e-c2f4-46bb-a14a-e196ab73343d)
