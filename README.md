@@ -152,55 +152,65 @@ https://github.com/GTheotista/Purwadhika-Capstone2/blob/main/CleanData_Supermark
 
 ---
 
+Pada bagian ini data yang sudah bersih dianalisis dengan beberapa teknik analisis berbeda. Teknik analisis yang digunakan antara lain:
+1. Statistika deskriptif. 
+2. Statistika inferensial.
+3. Statistika deskriptif berupa graphical summary.
+
 ## Segmentasi Pelanggan
 
 Beberapa pertanyaan yang berkaitan untuk mengenali dan memahami segmentasi pelanggan:
 
-1. Berapakah jumlah total pelanggan yang tercatat?
-2. Bagaimanakah jumlah dan persentase pelanggan setiap kelompok? (Misalnya, kelompok umur, status pernikahan, dll.)
-3. Apakah distribusi umur pelanggan berdistribusi normal?
+1. Berapakah jumlah total pelanggan yang tercatat? *
+2. Bagaimanakah jumlah dan persentase pelanggan setiap kelompok? (Misalnya, kelompok umur, status pernikahan, dll.) *
+3. Apakah distribusi umur pelanggan berdistribusi normal? **
 
 ## Performa Penjualan
 
 Beberapa pertanyaan yang berkaitan untuk memahami performa penjualan:
 
-1. Berapakah jumlah dan persentase pelanggan yang tergolong aktif / pasif?
-2. Berapakah jumlah serta rata-rata penjualan 2 tahun terakhir dan total pelanggan di masing masing komoditas? Manakah yang tertinggi?
-3. Apa preferensi pembelian produk untuk setiap kelompok pelanggan? (Misalnya, kelompok umur, status pernikahan, dll.)
-4. Apakah terdapat korelasi positif/negatif antara income dan juga penjualan komoditas satu dengan yang lain?
-5. Apakah ada korelasi antara total penghasilan pelanggan dengan jumlah pembelian dengan diskon?
-6. Kelompok umur mana yang cenderung melakukan pembelian melalui market place Web, Catalog atau Store?
-7. Berapakah rata-rata penjualan masing-masing market place?
-8. Apakah rata-rata pembelian antar market place yaitu Web, Catalog dan Store sama?
-9. Apakah ada korelasi antara pembelian dengan diskon dengan terakhir kali pelanggan melakukan pembelian?
+1. Berapakah jumlah dan persentase pelanggan yang tergolong aktif / pasif? *
+2. Berapakah jumlah serta rata-rata penjualan 2 tahun terakhir dan total pelanggan di masing masing komoditas? Manakah yang tertinggi? *
+3. Apa preferensi pembelian produk untuk setiap kelompok pelanggan? (Misalnya, kelompok umur, status pernikahan, dll.) ***
+4. Apakah terdapat korelasi positif/negatif antara income dan juga penjualan komoditas satu dengan yang lain? **
+5. Apakah ada korelasi antara total penghasilan pelanggan dengan jumlah pembelian dengan diskon? **
+6. Kelompok umur mana yang cenderung melakukan pembelian melalui market place Web, Catalog atau Store? ***
+7. Berapakah rata-rata penjualan masing-masing market place? *
+8. Apakah rata-rata pembelian antar market place yaitu Web, Catalog dan Store sama? **
+9. Apakah ada korelasi antara pembelian dengan diskon dengan terakhir kali pelanggan melakukan pembelian? **
 
 ## Efektifitas Campaign
 
 Beberapa pertanyaan yang berkaitan untuk memahami efektifitas campaign:
 
-1. Jumlah pelanggan yang sukses mengikuti campaign 1 s/d terakhir? Manakah yang tertinggi?
-2. Bagaimana efektivitas campaign terakhir dibandingkan dengan campaign sebelumnya?
-3. Jumlah Customer yang sukses mengikuti campaign terakhir setiap kelompok umur?
-4. Apakah terdapat perbedaan proporsi kesuksesan campaign untuk masing-masing kategori umur pelanggan ('Adult', 'Pre-Senior', 'Senior')?
+1. Jumlah pelanggan yang sukses mengikuti campaign 1 s/d terakhir? Manakah yang tertinggi? *
+2. Bagaimana efektivitas campaign terakhir dibandingkan dengan campaign sebelumnya? **
+3. Jumlah Customer yang sukses mengikuti campaign terakhir setiap kelompok umur? *
+4. Apakah terdapat perbedaan proporsi kesuksesan campaign untuk masing-masing kategori umur pelanggan ('Adult', 'Pre-Senior', 'Senior')? **
 
 ## Efektifitas Website
 
 Beberapa pertanyaan yang berkaitan untuk memahami efektifitas website:
 
-1. Berapakah rata-rata seseorang berkunjung ke website (perbulan)?
-2. Berapakah rata-rata penjualan via website?
-3. Apakah ada korelasi antara frekuensi kunjungan situs web atau toko oleh pelanggan dengan jumlah pembelian produk via web?
-4. Berapakah rata-rata kunjungan website setiap kategori umur?
-5. Berapakah rata-rata dari total pembelian via website setiap kategori umur?
+1. Berapakah rata-rata seseorang berkunjung ke website (perbulan)? *
+2. Berapakah rata-rata penjualan via website? *
+3. Apakah ada korelasi antara frekuensi kunjungan situs web atau toko oleh pelanggan dengan jumlah pembelian produk via web? **
+4. Berapakah rata-rata kunjungan website setiap kategori umur? *
+5. Berapakah rata-rata dari total pembelian via website setiap kategori umur? *
 
 ## Komplain Pelanggan
 
 Beberapa pertanyaan yang berkaitan untuk memahami komplain pelanggan:
 
-1. Berapakah jumlah dan persentase pelanggan yang melakukan komplain?
-2. Kelompok mana yang cenderung melakukan komplain terkait pembelian?
-3. Berapakah total pembelian setiap komoditas untuk konsumen yang melakukan komplain?
-4. Berapakah total pembelian setiap komoditas di semua kelompok umur yang melakukan komplain?
+1. Berapakah jumlah dan persentase pelanggan yang melakukan komplain? *
+2. Kelompok mana yang cenderung melakukan komplain terkait pembelian? ***
+3. Berapakah total pembelian setiap komoditas untuk konsumen yang melakukan komplain? *
+4. Berapakah total pembelian setiap komoditas di semua kelompok umur yang melakukan komplain? *
+
+**Keterangan Metode**
+1. Statistika deskriptif: (*) 
+2. Statistika inferensial: (**) 
+3. Statistika deskriptif berupa graphical summary: (***) 
 
 ---
 
