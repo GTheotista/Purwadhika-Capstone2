@@ -252,6 +252,7 @@ Beberapa pertanyaan yang berkaitan untuk memahami komplain pelanggan:
 1. Lanjutkan campaign yang telah berhasil, terutama yang paling terkini.
 2. Pertimbangkan untuk menyesuaikan jenis campaign atau penawaran berdasarkan preferensi dan perilaku belanja pelanggan.
 3. Rancang campaign yang menyasar kepada kelompok pelanggan terendah, yaitu yang berada dalam kelompok umur "Child" dan "Teenagers", status pernikahan "Widow", status pendidikan "Basic", dan tidak memiliki anak.
+4. Rancang campaign yang menyasar kepada kelompok pelanggan yang tergolong pasif.
 
 **Efektivitas Website:**
 1. Perkuat kehadiran online dengan memastikan situs web responsif, mudah dinavigasi, dan menawarkan pengalaman berbelanja yang menyenangkan.
