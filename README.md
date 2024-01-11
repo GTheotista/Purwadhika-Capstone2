@@ -129,68 +129,44 @@ Setelah mengecek data dan dilihat bahwa data telah rapi, maka kita save data. Da
 ---
 
 ## Segmentasi Pelanggan
-
-### Berapakah jumlah total pelanggan yang tercatat?
-
-### Bagaimanakah jumlah dan persentase pelanggan setiap kelompok? (Misalnya, kelompok umur, status pernikahan, dll.)
-
-### Apakah distribusi umur pelanggan berdistribusi normal?
-
+Beberapa pertanyaan yang berkaitan untuk mengenali dan memahami segmentasi pelanggan:
+1. Berapakah jumlah total pelanggan yang tercatat?
+2. Bagaimanakah jumlah dan persentase pelanggan setiap kelompok? (Misalnya, kelompok umur, status pernikahan, dll.)
+3. Apakah distribusi umur pelanggan berdistribusi normal?
 
 ## Performa Penjualan
-
-### Berapakah jumlah dan persentase pelanggan yang tergolong aktif / pasif?
-
-### Berapakah jumlah serta rata-rata penjualan 2 tahun terakhir dan total pelanggan di masing masing komoditas? Manakah yang tertinggi?
-
-### Apa preferensi pembelian produk untuk setiap kelompok pelanggan? (Misalnya, kelompok umur, status pernikahan, dll.)
-
-### Apakah terdapat korelasi positif/negatif antara income dan juga penjualan komoditas satu dengan yang lain?
-
-### Apakah ada korelasi antara total penghasilan pelanggan dengan jumlah pembelian dengan diskon?
-
-### Kelompok umur mana yang cenderung melakukan pembelian melalui market place Web, Catalog atau Store?
-
-### Berapakah rata-rata penjualan masing-masing market place?
-
-### Apakah rata-rata pembelian antar market place yaitu Web, Catalog dan Store sama?
-
-### Apakah ada korelasi antara pembelian dengan diskon dengan terakhir kali pelanggan melakukan pembelian?
-
+Beberapa pertanyaan yang berkaitan untuk memahami performa penjualan:
+1. Berapakah jumlah dan persentase pelanggan yang tergolong aktif / pasif?
+2. Berapakah jumlah serta rata-rata penjualan 2 tahun terakhir dan total pelanggan di masing masing komoditas? Manakah yang tertinggi?
+3. Apa preferensi pembelian produk untuk setiap kelompok pelanggan? (Misalnya, kelompok umur, status pernikahan, dll.)
+4. Apakah terdapat korelasi positif/negatif antara income dan juga penjualan komoditas satu dengan yang lain?
+5. Apakah ada korelasi antara total penghasilan pelanggan dengan jumlah pembelian dengan diskon?
+6. Kelompok umur mana yang cenderung melakukan pembelian melalui market place Web, Catalog atau Store?
+7. Berapakah rata-rata penjualan masing-masing market place?
+8. Apakah rata-rata pembelian antar market place yaitu Web, Catalog dan Store sama?
+9. Apakah ada korelasi antara pembelian dengan diskon dengan terakhir kali pelanggan melakukan pembelian?
 
 ## Efektifitas Campaign
+Beberapa pertanyaan yang berkaitan untuk memahami efektifitas campaign:
+1. Jumlah pelanggan yang sukses mengikuti campaign 1 s/d terakhir? Manakah yang tertinggi?
+2. Bagaimana efektivitas campaign terakhir dibandingkan dengan campaign sebelumnya?
+3. Jumlah Customer yang sukses mengikuti campaign terakhir setiap kelompok umur?
+4. Apakah terdapat perbedaan proporsi kesuksesan campaign untuk masing-masing kategori umur pelanggan ('Adult', 'Pre-Senior', 'Senior')?
 
-### Jumlah pelanggan yang sukses mengikuti campaign 1 s/d terakhir? Manakah yang tertinggi?
-
-### Bagaimana efektivitas campaign terakhir dibandingkan dengan campaign sebelumnya?
-
-### Jumlah Customer yang sukses mengikuti campaign terakhir setiap kelompok umur?
-
-### Apakah terdapat perbedaan proporsi kesuksesan campaign untuk masing-masing kategori umur pelanggan ('Adult', 'Pre-Senior', 'Senior')?
-
-
-## Website
-
-### Berapakah rata-rata seseorang berkunjung ke website (perbulan)?
-
-### Berapakah rata-rata penjualan via website?
-
-### Apakah ada korelasi antara frekuensi kunjungan situs web atau toko oleh pelanggan dengan jumlah pembelian produk via web?
-
-### Berapakah rata-rata kunjungan website setiap kategori umur?
-
-### Berapakah rata-rata dari total pembelian via website setiap kategori umur?
-
+## Efektifitas Website
+Beberapa pertanyaan yang berkaitan untuk memahami efektifitas website:
+1. Berapakah rata-rata seseorang berkunjung ke website (perbulan)?
+2. Berapakah rata-rata penjualan via website?
+3. Apakah ada korelasi antara frekuensi kunjungan situs web atau toko oleh pelanggan dengan jumlah pembelian produk via web?
+4. Berapakah rata-rata kunjungan website setiap kategori umur?
+5. Berapakah rata-rata dari total pembelian via website setiap kategori umur?
 
 ## Komplain Pelanggan
-
-### Berapakah jumlah dan persentase pelanggan yang melakukan komplain?
-
-### Kelompok mana yang cenderung melakukan komplain terkait pembelian?
-
-### Berapakah total pembelian setiap komoditas untuk konsumen yang melakukan komplain?
-
-### Berapakah total pembelian setiap komoditas di semua kelompok umur yang melakukan komplain?
+Beberapa pertanyaan yang berkaitan untuk memahami komplain pelanggan:
+1. Berapakah jumlah dan persentase pelanggan yang melakukan komplain?
+2. Kelompok mana yang cenderung melakukan komplain terkait pembelian?
+3. Berapakah total pembelian setiap komoditas untuk konsumen yang melakukan komplain?
+4. Berapakah total pembelian setiap komoditas di semua kelompok umur yang melakukan komplain?
 
 ---
 
@@ -256,4 +232,4 @@ Setelah mengecek data dan dilihat bahwa data telah rapi, maka kita save data. Da
 
 # **Langkah 4: Visualisasi: Tableau**
 
-Berikut ini adalah link tableau project ini: 
+Berikut ini adalah link tableau project ini:  
