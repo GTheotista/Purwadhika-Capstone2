@@ -45,6 +45,8 @@ Dengan merumuskan pertanyaan-pertanyaan ini, analisis data dapat memberikan pand
 ## Import & Understanding Data
 
 Data yang diimport merupakan data yang ada pada respository: 
+https://github.com/GTheotista/Purwadhika-Capstone2/blob/main/Supermarket%20Customers.csv
+
 Data merupakan data supermarket customers yang berjumlah 2240 data yang diperkirakan data ini merupakan data di tahun 2013-2015. 
 
 **Keterangan Kolom:**
@@ -139,6 +141,8 @@ Kita melakukan pengecekan terakhir apakah data perlu dirapikan lebih lanjut.
 **Save Clean Data**
 
 Setelah mengecek data dan dilihat bahwa data telah rapi, maka kita save data. Data yang sudah bersih ada pada respository: 
+
+https://github.com/GTheotista/Purwadhika-Capstone2/blob/main/CleanData_SupermarketCustomers.xlsx
 
 ---
 
