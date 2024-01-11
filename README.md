@@ -207,6 +207,7 @@ Beberapa pertanyaan yang berkaitan untuk memahami komplain pelanggan:
 3. Berapakah total pembelian setiap komoditas untuk konsumen yang melakukan komplain? *
 4. Berapakah total pembelian setiap komoditas di semua kelompok umur yang melakukan komplain? *
 
+
 **Keterangan Metode:**
 1. Statistika deskriptif (*) 
 2. Statistika inferensial (**) 
