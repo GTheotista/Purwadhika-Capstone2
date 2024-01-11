@@ -47,7 +47,7 @@ Dengan merumuskan pertanyaan-pertanyaan ini, analisis data dapat memberikan pand
 Data yang diimport merupakan data yang ada pada respository: 
 Data merupakan data supermarket customers yang berjumlah 2240 data yang diperkirakan data ini merupakan data di tahun 2013-2015. 
 
-### Keterangan Kolom:
+**Keterangan Kolom:**
 1. ID: Identifikasi unik pelanggan.
 2. Year_Birth: Tahun kelahiran pelanggan.
 3. Education: Tingkat pendidikan pelanggan.
@@ -74,52 +74,54 @@ Data merupakan data supermarket customers yang berjumlah 2240 data yang diperkir
 
 ## Data Cleaning
 
-### Drop Kolom
+**Drop Kolom**
 Melakukan drop kolom yang tidak sesuai dengan library yang menjelaskan tentang kolom apa saja yang ada.
 
-### Mencari Duplikat
+**Mencari Duplikat**
 Setelah melakukan pengecekan, tidak terdapat data yang duplikat.
 
-### Mencari Data yang Kosong
+**Mencari Data yang Kosong**
 Setelah melakukan pengecekan, terdapat data yang kosong pada kolom 'Income'. Selanjutnya, melakukan analisa terhadap data yang memiliki nilai kosong pada kolom tersebut apakah layak dipertahankan dan diputuskan data akan dipertahankan.
 
-### Mencari Nilai Unik dari Kolom Education
+**Mencari Nilai Unik dari Kolom Education**
 Metode yang digunakan untuk mengisi nilai kosong pada kolom 'Income' mengisi dengan nilai rata rata dari masing masing kategori pendidikan (ini berdasarkan asumsi bahwa status pendidikan yang sama biasanya memiliki income yang tidak jauh berbeda). Karena data unik tidak ada yang aneh maka proses akan dilanjutkan.
 
-### Imputation
+**Imputation**
 Setelah mengecek nilai unik dari kolom education, imputasi dilakukan dengan nilai rata rata dari masing masing kategori pendidikan.
 
-### Feature Engineering: 'Age'
+**Feature Engineering: 'Age'**
 Pada langkah ini dibuat fitur kolom baru yang merupakan kolom 'Age' yaitu umur seseorang menjadi costumer untuk pertama kalinya, karena diasumsikan lebih informatif dibanding kolom 'Year_Birth'. Selanjutnya dilakukan analisa mengenai fitur baru ini, ternyata data dicurigai memiliki outlier karena terdapat umur pelanggan yang berumur 121 tahun.
 
-### Cek Outlier
+**Cek Outlier**
 Beberapa fitur 'Age', 'Recency', 'Income' akan coba dilihat sebaran outlier dan menghilangkannya. Setelah melakukan analisa dengan boxplot, diketahui hanya 'Age' dan 'Income' yang perlu diremove outliernya
 
-### Remove Outlier
+**Remove Outlier**
 Dalam melakukan proses ini, digunakan aturan jarak Interquartile Range (IQR). Titik data yang berada di bawah Q1 – 1.5 IQR atau di atas Q3 + 1.5 IQR adalah outlier.
 
-### Feature Engineering: 'Age_Labels'
+**Feature Engineering: 'Age_Labels'**
 Pada langkah ini dibuat fitur kolom baru yang merupakan kolom 'Age_Labels' yaitu mengelompokan pelanggan berdasarkan umur dengan menggunakan refernsi ini: https://gaya.tempo.co/read/1724197/kategori-umur-balita-remaja-dan-dewasa-menurut-kemenkes-jangan-salah
 
-### Mencari Nilai Unik dari Kolom 'Marital_Status'
+**Mencari Nilai Unik dari Kolom 'Marital_Status'**
 Melihat nilai unik pada kolom 'Marital_Status', apakah ada nilai yang aneh atau tidak. Setelah melakukan pengecekan, ternyata ada 'Marital_Status' yang tidak yang tidak relevan.
 
-### Mengganti Data 'Marital_Status' yang Tidak Relevan
+**Mengganti Data 'Marital_Status' yang Tidak Relevan**
 Melanjutkan langkah sebelumnya, akibat di Indonesia tidak mengenal status "Alone", "Absurd", "Together" dan "YOLO" yang diasumsikan sama seperti "Single", kita akan merapikan data tersebut menjadi status "Single".
 
-### Feature Engineering: 'Child_Status'
+**Feature Engineering: 'Child_Status'**
 Pada langkah ini dibuat fitur kolom baru yang merupakan kolom 'Child_Status' yang menunjukan bahwa customer memiliki anak / tidak yang didasarkan pada dua kolom yaitu kolom Kidhome dan Teenhome (kedua kolom ini menunjukan jumlah kid dan teen yang dimiliki pelanggan tersebut)
 
-### Feature Engineering: 'Active_Cust'
+**Feature Engineering: 'Active_Cust'**
 Pada langkah ini dibuat fitur kolom baru yang merupakan kolom 'Active_Cust'. Pada kolom ini pelanggan dikatakan aktif jika terakhir kali maksimal 60 hari melakukan pembelian, selebihnya dikatakan pasif. 
 
-### Drop Kolom
+**Drop Kolom**
 Akibat kolom-kolom seperti Kidhome, Teenhome, Year_Birth, Dt_Customer sudah dibuat menjadi feature baru, sehingga kita bisa drop semua kolom tersebut
 
-### Cek Clean Data
+## Cek and Save Clean Data
+
+**Cek Clean Data**
 Kita melakukan pengecekan terakhir apakah data perlu dirapikan lebih lanjut. 
 
-## Save Clean Data
+**Save Clean Data**
 Setelah mengecek data dan dilihat bahwa data telah rapi, maka kita save data. Data yang sudah bersih ada pada respository: 
 
 ---
