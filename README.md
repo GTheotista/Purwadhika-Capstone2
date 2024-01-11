@@ -1,5 +1,3 @@
----
-
 # **Supermarket Customers Analysis**
 
 **Tool:** Python<br>
