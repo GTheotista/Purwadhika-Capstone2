@@ -75,53 +75,69 @@ Data merupakan data supermarket customers yang berjumlah 2240 data yang diperkir
 ## Data Cleaning
 
 **Drop Kolom**
+
 Melakukan drop kolom yang tidak sesuai dengan library yang menjelaskan tentang kolom apa saja yang ada.
 
 **Mencari Duplikat**
+
 Setelah melakukan pengecekan, tidak terdapat data yang duplikat.
 
 **Mencari Data yang Kosong**
+
 Setelah melakukan pengecekan, terdapat data yang kosong pada kolom 'Income'. Selanjutnya, melakukan analisa terhadap data yang memiliki nilai kosong pada kolom tersebut apakah layak dipertahankan dan diputuskan data akan dipertahankan.
 
 **Mencari Nilai Unik dari Kolom Education**
+
 Metode yang digunakan untuk mengisi nilai kosong pada kolom 'Income' mengisi dengan nilai rata rata dari masing masing kategori pendidikan (ini berdasarkan asumsi bahwa status pendidikan yang sama biasanya memiliki income yang tidak jauh berbeda). Karena data unik tidak ada yang aneh maka proses akan dilanjutkan.
 
 **Imputation**
+
 Setelah mengecek nilai unik dari kolom education, imputasi dilakukan dengan nilai rata rata dari masing masing kategori pendidikan.
 
 **Feature Engineering: 'Age'**
+
 Pada langkah ini dibuat fitur kolom baru yang merupakan kolom 'Age' yaitu umur seseorang menjadi costumer untuk pertama kalinya, karena diasumsikan lebih informatif dibanding kolom 'Year_Birth'. Selanjutnya dilakukan analisa mengenai fitur baru ini, ternyata data dicurigai memiliki outlier karena terdapat umur pelanggan yang berumur 121 tahun.
 
 **Cek Outlier**
+
 Beberapa fitur 'Age', 'Recency', 'Income' akan coba dilihat sebaran outlier dan menghilangkannya. Setelah melakukan analisa dengan boxplot, diketahui hanya 'Age' dan 'Income' yang perlu diremove outliernya
 
 **Remove Outlier**
+
 Dalam melakukan proses ini, digunakan aturan jarak Interquartile Range (IQR). Titik data yang berada di bawah Q1 – 1.5 IQR atau di atas Q3 + 1.5 IQR adalah outlier.
 
 **Feature Engineering: 'Age_Labels'**
+
 Pada langkah ini dibuat fitur kolom baru yang merupakan kolom 'Age_Labels' yaitu mengelompokan pelanggan berdasarkan umur dengan menggunakan refernsi ini: https://gaya.tempo.co/read/1724197/kategori-umur-balita-remaja-dan-dewasa-menurut-kemenkes-jangan-salah
 
 **Mencari Nilai Unik dari Kolom 'Marital_Status'**
+
 Melihat nilai unik pada kolom 'Marital_Status', apakah ada nilai yang aneh atau tidak. Setelah melakukan pengecekan, ternyata ada 'Marital_Status' yang tidak yang tidak relevan.
 
 **Mengganti Data 'Marital_Status' yang Tidak Relevan**
+
 Melanjutkan langkah sebelumnya, akibat di Indonesia tidak mengenal status "Alone", "Absurd", "Together" dan "YOLO" yang diasumsikan sama seperti "Single", kita akan merapikan data tersebut menjadi status "Single".
 
 **Feature Engineering: 'Child_Status'**
+
 Pada langkah ini dibuat fitur kolom baru yang merupakan kolom 'Child_Status' yang menunjukan bahwa customer memiliki anak / tidak yang didasarkan pada dua kolom yaitu kolom Kidhome dan Teenhome (kedua kolom ini menunjukan jumlah kid dan teen yang dimiliki pelanggan tersebut)
 
 **Feature Engineering: 'Active_Cust'**
+
 Pada langkah ini dibuat fitur kolom baru yang merupakan kolom 'Active_Cust'. Pada kolom ini pelanggan dikatakan aktif jika terakhir kali maksimal 60 hari melakukan pembelian, selebihnya dikatakan pasif. 
 
 **Drop Kolom**
+
 Akibat kolom-kolom seperti Kidhome, Teenhome, Year_Birth, Dt_Customer sudah dibuat menjadi feature baru, sehingga kita bisa drop semua kolom tersebut
 
 ## Cek and Save Clean Data
 
 **Cek Clean Data**
+
 Kita melakukan pengecekan terakhir apakah data perlu dirapikan lebih lanjut. 
 
 **Save Clean Data**
+
 Setelah mengecek data dan dilihat bahwa data telah rapi, maka kita save data. Data yang sudah bersih ada pada respository: 
 
 ---
@@ -131,13 +147,17 @@ Setelah mengecek data dan dilihat bahwa data telah rapi, maka kita save data. Da
 ---
 
 ## Segmentasi Pelanggan
+
 Beberapa pertanyaan yang berkaitan untuk mengenali dan memahami segmentasi pelanggan:
+
 1. Berapakah jumlah total pelanggan yang tercatat?
 2. Bagaimanakah jumlah dan persentase pelanggan setiap kelompok? (Misalnya, kelompok umur, status pernikahan, dll.)
 3. Apakah distribusi umur pelanggan berdistribusi normal?
 
 ## Performa Penjualan
+
 Beberapa pertanyaan yang berkaitan untuk memahami performa penjualan:
+
 1. Berapakah jumlah dan persentase pelanggan yang tergolong aktif / pasif?
 2. Berapakah jumlah serta rata-rata penjualan 2 tahun terakhir dan total pelanggan di masing masing komoditas? Manakah yang tertinggi?
 3. Apa preferensi pembelian produk untuk setiap kelompok pelanggan? (Misalnya, kelompok umur, status pernikahan, dll.)
@@ -149,14 +169,18 @@ Beberapa pertanyaan yang berkaitan untuk memahami performa penjualan:
 9. Apakah ada korelasi antara pembelian dengan diskon dengan terakhir kali pelanggan melakukan pembelian?
 
 ## Efektifitas Campaign
+
 Beberapa pertanyaan yang berkaitan untuk memahami efektifitas campaign:
+
 1. Jumlah pelanggan yang sukses mengikuti campaign 1 s/d terakhir? Manakah yang tertinggi?
 2. Bagaimana efektivitas campaign terakhir dibandingkan dengan campaign sebelumnya?
 3. Jumlah Customer yang sukses mengikuti campaign terakhir setiap kelompok umur?
 4. Apakah terdapat perbedaan proporsi kesuksesan campaign untuk masing-masing kategori umur pelanggan ('Adult', 'Pre-Senior', 'Senior')?
 
 ## Efektifitas Website
+
 Beberapa pertanyaan yang berkaitan untuk memahami efektifitas website:
+
 1. Berapakah rata-rata seseorang berkunjung ke website (perbulan)?
 2. Berapakah rata-rata penjualan via website?
 3. Apakah ada korelasi antara frekuensi kunjungan situs web atau toko oleh pelanggan dengan jumlah pembelian produk via web?
@@ -164,7 +188,9 @@ Beberapa pertanyaan yang berkaitan untuk memahami efektifitas website:
 5. Berapakah rata-rata dari total pembelian via website setiap kategori umur?
 
 ## Komplain Pelanggan
+
 Beberapa pertanyaan yang berkaitan untuk memahami komplain pelanggan:
+
 1. Berapakah jumlah dan persentase pelanggan yang melakukan komplain?
 2. Kelompok mana yang cenderung melakukan komplain terkait pembelian?
 3. Berapakah total pembelian setiap komoditas untuk konsumen yang melakukan komplain?
