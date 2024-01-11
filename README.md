@@ -11,7 +11,7 @@
 - [**Langkah 1: Data Cleaning and Understanding**](#Langkah-2-Data-Cleaning-and-Understanding)
 - [**Langkah 2: Data Analysis**](#Langkah-2-Data-Analysis)
 - [**Langkah 3: Kesimpulan dan Saran**](#Langkah-3-Kesimpulan-dan-Saran)
-- [**Langkah 4: Visualisasi - Tableau**](#Langkah-4-Visualisasi-Tableau)
+- [**Langkah 4: Visualisasi Tableau**](#Langkah-4-Visualisasi-Tableau)
 
 ---
 
@@ -264,7 +264,7 @@ Beberapa pertanyaan yang berkaitan untuk memahami komplain pelanggan:
 
 ---
 
-# **Langkah 4: Visualisasi - Tableau**
+# **Langkah 4: Visualisasi Tableau**
 
 Berikut ini adalah link tableau project ini:  
 https://public.tableau.com/app/profile/giovanny.theotista/viz/Capstone_2_GiovannyT/SupermarketCust?publish=yes
