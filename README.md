@@ -6,7 +6,7 @@
 
 **Table of Contents:**
 
-- [**Supermarket Customers Analysis**]
+- [**Supermarket Customers Analysis**](#Supermarket-Customers-Analysis)
 - [**Langkah 0: Latar Belakang dan Masalah**](#Langkah-0-Latar-Belakang-dan-Masalah)
 - [**Langkah 1: Data Cleaning and Understanding**](#Langkah-2-Data-Cleaning-and-Understanding)
 - [**Langkah 2: Data Analysis**](#Langkah-2-Data-Analysis)
