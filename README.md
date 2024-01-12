@@ -283,6 +283,7 @@ Berikut ini adalah link tableau project ini:
 https://public.tableau.com/app/profile/giovanny.theotista/viz/Capstone_2_GiovannyT/SupermarketCust?publish=yes
 
 Berikut ini sekilas dari tampilan tableau project ini:  
-![image](https://github.com/GTheotista/Purwadhika-Capstone2/assets/150938198/16b13908-eaed-4f25-9cab-74a99aa7c5b7)
+![image](https://github.com/GTheotista/Purwadhika-Capstone2/assets/150938198/34006cd4-84a0-4909-9ab1-0109e399ae88)
+
 
 
