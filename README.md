@@ -279,7 +279,7 @@ Beberapa pertanyaan yang berkaitan untuk memahami komplain pelanggan:
 
 # **Langkah 4: Visualisasi Tableau**
 
-Data bersih yang telah disimpan sebelumnya divisualisasikan dengan tableu. Berikut ini adalah link tableau project ini:  
+Data bersih yang telah disimpan sebelumnya divisualisasikan dengan Tableau. Berikut ini adalah link tableau project ini:  
 https://public.tableau.com/app/profile/giovanny.theotista/viz/Capstone_2_GiovannyT/SupermarketCust?publish=yes
 
 Berikut ini sekilas dari tampilan tableau project ini:  
